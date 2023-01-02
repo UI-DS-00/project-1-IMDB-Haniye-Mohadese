@@ -1,8 +1,0 @@
-D:\Unversity\Term-3\project-DS\Imdb\project-1-mano-dustam\IMDBTeamWork\IMDBTeamWork\bin\Debug\IMDBTeamWork.exe.config
-D:\Unversity\Term-3\project-DS\Imdb\project-1-mano-dustam\IMDBTeamWork\IMDBTeamWork\bin\Debug\IMDBTeamWork.exe
-D:\Unversity\Term-3\project-DS\Imdb\project-1-mano-dustam\IMDBTeamWork\IMDBTeamWork\bin\Debug\IMDBTeamWork.pdb
-D:\Unversity\Term-3\project-DS\Imdb\project-1-mano-dustam\IMDBTeamWork\IMDBTeamWork\obj\Debug\IMDBTeamWork.csproj.AssemblyReference.cache
-D:\Unversity\Term-3\project-DS\Imdb\project-1-mano-dustam\IMDBTeamWork\IMDBTeamWork\obj\Debug\IMDBTeamWork.csproj.SuggestedBindingRedirects.cache
-D:\Unversity\Term-3\project-DS\Imdb\project-1-mano-dustam\IMDBTeamWork\IMDBTeamWork\obj\Debug\IMDBTeamWork.csproj.CoreCompileInputs.cache
-D:\Unversity\Term-3\project-DS\Imdb\project-1-mano-dustam\IMDBTeamWork\IMDBTeamWork\obj\Debug\IMDBTeamWork.exe
-D:\Unversity\Term-3\project-DS\Imdb\project-1-mano-dustam\IMDBTeamWork\IMDBTeamWork\obj\Debug\IMDBTeamWork.pdb
