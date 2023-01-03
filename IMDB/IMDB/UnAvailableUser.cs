@@ -1,12 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IMDB
 {
-    internal class UnAvailableUser
+    internal class UnAvailableUser : Exception
     {
+        public UnAvailableUser()
+        {
+        }
+
+        public UnAvailableUser(string message) : base(message)
+        {
+        }
+
+        public UnAvailableUser(string message, Exception innerException) : base(message, innerException)
+        {
+        }
     }
 }

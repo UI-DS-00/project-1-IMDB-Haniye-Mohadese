@@ -1,12 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IMDB
 {
-    internal class InvalidUserName
+    internal class InvalidUserName : Exception
     {
+        public InvalidUserName() { }
+
+        public InvalidUserName(string message) : base(message)
+        {
+        }
+
+        public InvalidUserName(string message, Exception innerException) : base(message, innerException)
+        {
+        }
     }
 }

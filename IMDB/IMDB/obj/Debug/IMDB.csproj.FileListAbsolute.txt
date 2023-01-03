@@ -1,0 +1,15 @@
+D:\Unversity\Term-3\project-DS\Imdb\project-1-mano-dustam\IMDB\IMDB\bin\Debug\IMDB.exe.config
+D:\Unversity\Term-3\project-DS\Imdb\project-1-mano-dustam\IMDB\IMDB\bin\Debug\IMDB.exe
+D:\Unversity\Term-3\project-DS\Imdb\project-1-mano-dustam\IMDB\IMDB\bin\Debug\IMDB.pdb
+D:\Unversity\Term-3\project-DS\Imdb\project-1-mano-dustam\IMDB\IMDB\obj\Debug\IMDB.csproj.AssemblyReference.cache
+D:\Unversity\Term-3\project-DS\Imdb\project-1-mano-dustam\IMDB\IMDB\obj\Debug\IMDB.csproj.SuggestedBindingRedirects.cache
+D:\Unversity\Term-3\project-DS\Imdb\project-1-mano-dustam\IMDB\IMDB\obj\Debug\IMDB.EditUserInformation.resources
+D:\Unversity\Term-3\project-DS\Imdb\project-1-mano-dustam\IMDB\IMDB\obj\Debug\IMDB.Login.resources
+D:\Unversity\Term-3\project-DS\Imdb\project-1-mano-dustam\IMDB\IMDB\obj\Debug\IMDB.MainPage.resources
+D:\Unversity\Term-3\project-DS\Imdb\project-1-mano-dustam\IMDB\IMDB\obj\Debug\IMDB.Properties.Resources.resources
+D:\Unversity\Term-3\project-DS\Imdb\project-1-mano-dustam\IMDB\IMDB\obj\Debug\IMDB.SignUp.resources
+D:\Unversity\Term-3\project-DS\Imdb\project-1-mano-dustam\IMDB\IMDB\obj\Debug\IMDB.UserProfile.resources
+D:\Unversity\Term-3\project-DS\Imdb\project-1-mano-dustam\IMDB\IMDB\obj\Debug\IMDB.csproj.GenerateResource.cache
+D:\Unversity\Term-3\project-DS\Imdb\project-1-mano-dustam\IMDB\IMDB\obj\Debug\IMDB.csproj.CoreCompileInputs.cache
+D:\Unversity\Term-3\project-DS\Imdb\project-1-mano-dustam\IMDB\IMDB\obj\Debug\IMDB.exe
+D:\Unversity\Term-3\project-DS\Imdb\project-1-mano-dustam\IMDB\IMDB\obj\Debug\IMDB.pdb
