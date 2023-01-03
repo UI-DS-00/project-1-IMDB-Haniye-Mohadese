@@ -54,6 +54,8 @@
     </Compile>
     <Compile Include="EditUserManager.cs" />
     <Compile Include="FavoriteList.cs" />
+    <Compile Include="FileReader.cs" />
+    <Compile Include="FileReaderManager.cs" />
     <Compile Include="InvalidEmail.cs" />
     <Compile Include="InvalidEmptyInput.cs" />
     <Compile Include="InvalidPhoneNumber.cs" />
@@ -72,6 +74,7 @@
       <DependentUpon>MainPage.cs</DependentUpon>
     </Compile>
     <Compile Include="Movie.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SignUp.cs">
