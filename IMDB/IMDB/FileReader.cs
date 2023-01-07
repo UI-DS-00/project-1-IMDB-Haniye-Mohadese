@@ -1,28 +1,33 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace IMDB
 {
     internal class FileReader
     {
-        public List<Person> fileReader(List<Person> peopleList)
+        public static List<Person> fileReader(List<Person> peopleList)
         {
-            StreamReader sr = new StreamReader(@"name.basics1-200.tsv");
+            
+            var path = "name.basics1-200.tsv";
+            string[] lines = File.ReadAllLines(path, Encoding.UTF8);
 
-            string line;
-            string[] column = new string[7];
-            int i = 0;
-
-            while ((line = sr.ReadLine()) != null)
+            for (int i = 1; i < lines.Length; ++i)
             {
-                column = line.Split('\t');
-                peopleList[i] = new Person(column[0], column[1], column[2], column[3], column[4], column[5], column[6]);
-                i++;
+                string[] column = lines[i].Split('\t');
+
+                string nConst = column[0];
+                string primaryName = column[1];
+                string birthYear = column[2];
+                string deathYear = column[3];
+                string primaryProfession = column[4];
+                string knownForTitles = column[5];
+                string linkImage = column[6];
+
+                peopleList.Add(new Person(nConst, primaryName, birthYear, deathYear, primaryProfession, knownForTitles, linkImage));
+
             }
+
             return peopleList;
         }
     }
