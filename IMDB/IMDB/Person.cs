@@ -14,7 +14,7 @@ namespace IMDB
         public string DeathYear { get; set; }
         public string PrimaryProfession { get; set; }
         public string KnownForTitles { get; set; }
-        public string linkImage { get; set; }
+        public string LinkImage { get; set; }
 
         public Person(string nConst, string primaryName, string birthYear, string deathYear,
             string primaryProfession, string knownForTitles, string linkImage)
@@ -25,7 +25,7 @@ namespace IMDB
             DeathYear = deathYear;
             PrimaryProfession = primaryProfession;
             KnownForTitles = knownForTitles;
-            this.linkImage = linkImage;
+            this.LinkImage = linkImage;
         }
     }
 }
