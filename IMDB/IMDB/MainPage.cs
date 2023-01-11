@@ -54,5 +54,7 @@ namespace IMDB
                 userProfile.Size = this.Size;
             }
         }
+
+       
     }
 }
