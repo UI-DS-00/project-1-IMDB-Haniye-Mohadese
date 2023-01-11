@@ -50,45 +50,50 @@
             // txtPassword
             // 
             this.txtPassword.BackColor = System.Drawing.Color.Ivory;
-            this.txtPassword.Location = new System.Drawing.Point(469, 368);
+            this.txtPassword.Location = new System.Drawing.Point(352, 299);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(174, 22);
+            this.txtPassword.Size = new System.Drawing.Size(132, 20);
             this.txtPassword.TabIndex = 76;
             this.txtPassword.TabStop = false;
             // 
             // txtEmail
             // 
             this.txtEmail.BackColor = System.Drawing.Color.Ivory;
-            this.txtEmail.Location = new System.Drawing.Point(469, 313);
+            this.txtEmail.Location = new System.Drawing.Point(352, 254);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(174, 22);
+            this.txtEmail.Size = new System.Drawing.Size(132, 20);
             this.txtEmail.TabIndex = 75;
             this.txtEmail.TabStop = false;
             // 
             // txtPhoneNumber
             // 
             this.txtPhoneNumber.BackColor = System.Drawing.Color.Ivory;
-            this.txtPhoneNumber.Location = new System.Drawing.Point(469, 258);
+            this.txtPhoneNumber.Location = new System.Drawing.Point(352, 210);
+            this.txtPhoneNumber.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtPhoneNumber.Name = "txtPhoneNumber";
-            this.txtPhoneNumber.Size = new System.Drawing.Size(174, 22);
+            this.txtPhoneNumber.Size = new System.Drawing.Size(132, 20);
             this.txtPhoneNumber.TabIndex = 74;
             this.txtPhoneNumber.TabStop = false;
             // 
             // txtFamilyName
             // 
             this.txtFamilyName.BackColor = System.Drawing.Color.Ivory;
-            this.txtFamilyName.Location = new System.Drawing.Point(469, 203);
+            this.txtFamilyName.Location = new System.Drawing.Point(352, 165);
+            this.txtFamilyName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtFamilyName.Name = "txtFamilyName";
-            this.txtFamilyName.Size = new System.Drawing.Size(174, 22);
+            this.txtFamilyName.Size = new System.Drawing.Size(132, 20);
             this.txtFamilyName.TabIndex = 73;
             this.txtFamilyName.TabStop = false;
             // 
             // txtName
             // 
             this.txtName.BackColor = System.Drawing.Color.Ivory;
-            this.txtName.Location = new System.Drawing.Point(469, 148);
+            this.txtName.Location = new System.Drawing.Point(352, 120);
+            this.txtName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(174, 22);
+            this.txtName.Size = new System.Drawing.Size(132, 20);
             this.txtName.TabIndex = 72;
             this.txtName.TabStop = false;
             // 
@@ -96,9 +101,10 @@
             // 
             this.lblPasword.AutoSize = true;
             this.lblPasword.Font = new System.Drawing.Font("Andalus", 12F);
-            this.lblPasword.Location = new System.Drawing.Point(289, 361);
+            this.lblPasword.Location = new System.Drawing.Point(217, 293);
+            this.lblPasword.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPasword.Name = "lblPasword";
-            this.lblPasword.Size = new System.Drawing.Size(90, 31);
+            this.lblPasword.Size = new System.Drawing.Size(74, 26);
             this.lblPasword.TabIndex = 71;
             this.lblPasword.Text = "Password";
             // 
@@ -106,9 +112,10 @@
             // 
             this.lblPhoneNumber.AutoSize = true;
             this.lblPhoneNumber.Font = new System.Drawing.Font("Andalus", 12F);
-            this.lblPhoneNumber.Location = new System.Drawing.Point(289, 251);
+            this.lblPhoneNumber.Location = new System.Drawing.Point(217, 204);
+            this.lblPhoneNumber.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPhoneNumber.Name = "lblPhoneNumber";
-            this.lblPhoneNumber.Size = new System.Drawing.Size(133, 31);
+            this.lblPhoneNumber.Size = new System.Drawing.Size(107, 26);
             this.lblPhoneNumber.TabIndex = 70;
             this.lblPhoneNumber.Text = "PhoneNumber";
             // 
@@ -116,9 +123,10 @@
             // 
             this.lblEmail.AutoSize = true;
             this.lblEmail.Font = new System.Drawing.Font("Andalus", 12F);
-            this.lblEmail.Location = new System.Drawing.Point(289, 306);
+            this.lblEmail.Location = new System.Drawing.Point(217, 249);
+            this.lblEmail.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(59, 31);
+            this.lblEmail.Size = new System.Drawing.Size(49, 26);
             this.lblEmail.TabIndex = 69;
             this.lblEmail.Text = "Email";
             // 
@@ -126,9 +134,10 @@
             // 
             this.lblFamilyName.AutoSize = true;
             this.lblFamilyName.Font = new System.Drawing.Font("Andalus", 12F);
-            this.lblFamilyName.Location = new System.Drawing.Point(289, 196);
+            this.lblFamilyName.Location = new System.Drawing.Point(217, 159);
+            this.lblFamilyName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblFamilyName.Name = "lblFamilyName";
-            this.lblFamilyName.Size = new System.Drawing.Size(115, 31);
+            this.lblFamilyName.Size = new System.Drawing.Size(95, 26);
             this.lblFamilyName.TabIndex = 68;
             this.lblFamilyName.Text = "FamilyName";
             // 
@@ -136,18 +145,20 @@
             // 
             this.lblName.AutoSize = true;
             this.lblName.Font = new System.Drawing.Font("Andalus", 12F);
-            this.lblName.Location = new System.Drawing.Point(289, 141);
+            this.lblName.Location = new System.Drawing.Point(217, 115);
+            this.lblName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(62, 31);
+            this.lblName.Size = new System.Drawing.Size(51, 26);
             this.lblName.TabIndex = 67;
             this.lblName.Text = "Name";
             // 
             // txtUserName
             // 
             this.txtUserName.BackColor = System.Drawing.Color.Ivory;
-            this.txtUserName.Location = new System.Drawing.Point(469, 98);
+            this.txtUserName.Location = new System.Drawing.Point(352, 80);
+            this.txtUserName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(174, 22);
+            this.txtUserName.Size = new System.Drawing.Size(132, 20);
             this.txtUserName.TabIndex = 66;
             this.txtUserName.TabStop = false;
             // 
@@ -155,9 +166,10 @@
             // 
             this.lblUserName.AutoSize = true;
             this.lblUserName.Font = new System.Drawing.Font("Andalus", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUserName.Location = new System.Drawing.Point(289, 91);
+            this.lblUserName.Location = new System.Drawing.Point(217, 74);
+            this.lblUserName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblUserName.Name = "lblUserName";
-            this.lblUserName.Size = new System.Drawing.Size(100, 31);
+            this.lblUserName.Size = new System.Drawing.Size(81, 26);
             this.lblUserName.TabIndex = 65;
             this.lblUserName.Text = "UserName";
             // 
@@ -165,9 +177,10 @@
             // 
             this.lblProfile.AutoSize = true;
             this.lblProfile.Font = new System.Drawing.Font("Andalus", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblProfile.Location = new System.Drawing.Point(337, 9);
+            this.lblProfile.Location = new System.Drawing.Point(253, 7);
+            this.lblProfile.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblProfile.Name = "lblProfile";
-            this.lblProfile.Size = new System.Drawing.Size(274, 57);
+            this.lblProfile.Size = new System.Drawing.Size(223, 46);
             this.lblProfile.TabIndex = 64;
             this.lblProfile.Text = "Edit Information";
             // 
@@ -175,9 +188,10 @@
             // 
             this.btnSave.BackColor = System.Drawing.Color.Thistle;
             this.btnSave.Font = new System.Drawing.Font("Andalus", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.Location = new System.Drawing.Point(810, 435);
+            this.btnSave.Location = new System.Drawing.Point(608, 353);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(100, 36);
+            this.btnSave.Size = new System.Drawing.Size(75, 29);
             this.btnSave.TabIndex = 77;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = false;
@@ -189,9 +203,10 @@
             this.lblHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHome.Image = ((System.Drawing.Image)(resources.GetObject("lblHome.Image")));
             this.lblHome.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lblHome.Location = new System.Drawing.Point(12, 18);
+            this.lblHome.Location = new System.Drawing.Point(9, 15);
+            this.lblHome.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblHome.Name = "lblHome";
-            this.lblHome.Size = new System.Drawing.Size(79, 20);
+            this.lblHome.Size = new System.Drawing.Size(65, 17);
             this.lblHome.TabIndex = 78;
             this.lblHome.Text = "Home     ";
             this.lblHome.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
@@ -201,9 +216,10 @@
             // 
             this.button1.BackColor = System.Drawing.Color.Thistle;
             this.button1.Font = new System.Drawing.Font("Andalus", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(16, 435);
+            this.button1.Location = new System.Drawing.Point(12, 353);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 36);
+            this.button1.Size = new System.Drawing.Size(75, 29);
             this.button1.TabIndex = 79;
             this.button1.Text = "Back";
             this.button1.UseVisualStyleBackColor = false;
@@ -211,10 +227,10 @@
             // 
             // EditUserInformation
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.ClientSize = new System.Drawing.Size(932, 483);
+            this.ClientSize = new System.Drawing.Size(699, 392);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lblHome);
             this.Controls.Add(this.btnSave);
@@ -232,7 +248,9 @@
             this.Controls.Add(this.lblUserName);
             this.Controls.Add(this.lblProfile);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "EditUserInformation";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EditUserInformation";
             this.Load += new System.EventHandler(this.EditUserInformation_Load);
             this.ResumeLayout(false);
